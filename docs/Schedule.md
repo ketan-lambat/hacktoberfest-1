@@ -34,9 +34,9 @@ _20:10 - 20:30_ - **CI/CD/GitHub Actions Quiz**
 
 _18:00 - 18:30_ - **Show and Tell**
 
-_18:30 - 19:30_ - **Guest Speaker - Dev Ops**
+_18:30 - 19:30_ - **Guest Speaker - DevOps**
 
-_19:30 - 19:45_ - **Dev Ops Quiz**
+_19:30 - 19:45_ - **DevOps Quiz**
 
 _19:45 - 20:15_ - **Q/A Session**
 

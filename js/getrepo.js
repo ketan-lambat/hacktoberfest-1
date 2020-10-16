@@ -113,11 +113,32 @@ var repos_list = [
   "trekhleb/javascript-algorithms",
   "thedevdojo/tails",
   "div-bargali/Data-Structures-and-Algorithms",
-  // "adwait-thattey/Techfesia2019",
-  // "masterashu/TestCaseGenerator",
-  // "santoshvijapure/DS_with_hacktoberfest",
 ];
 
 for (i = 0; i < repos_list.length; i++) {
   getRepo(repos_list[i]);
+}
+
+let modal = document.getElementById("modal");
+let dimg = document.getElementById("display-image");
+
+document.getElementById("close").onclick = () => {
+  modal.style.display = "none";
+  dimg.src = "";
+};
+modal.onclick = (event) => {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    dimg.src = "";
+  }
+};
+
+let imgs = document.getElementsByClassName("gallery-image");
+
+for (i = 0; i < imgs.length; i++) {
+  let img = imgs[i];
+  img.addEventListener("click", () => {
+    dimg.src = img.getElementsByTagName("img")[0].src;
+    modal.style.display = "flex";
+  });
 }

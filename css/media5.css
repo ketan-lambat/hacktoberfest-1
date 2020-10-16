@@ -23,8 +23,7 @@
 }
 
 #about {
-  font-size: 13.2vw;
-  margin-bottom: 0;
+  font-size: 4.2vw;
 }
 
 #text {
@@ -37,6 +36,10 @@
 
 #timeline {
   width: 95%;
+}
+
+#gallery {
+  font-size: 3.6vw;
 }
 
 #projects {
