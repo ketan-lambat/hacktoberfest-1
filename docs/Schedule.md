@@ -30,7 +30,7 @@ _19:40 - 20:10_ - **CI/CD - Travis & Coveralls**
 
 _20:10 - 20:30_ - **CI/CD/GitHub Actions Quiz**
 
-### Day 3 - 19 October 18:00 - 23:00
+### Day 3 - 19 October 18:00 - 20:30
 
 _18:00 - 18:30_ - **Show and Tell**
 

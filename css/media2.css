@@ -1,0 +1,35 @@
+#navbar {
+  font-size: 1.75vw;
+}
+
+#banner {
+  font-size: 2.5vw;
+}
+
+#about {
+  font-size: 2vw;
+}
+
+#text {
+  width: 75%;
+}
+
+#agenda {
+  font-size: 2vw;
+}
+
+#timeline {
+  width: 80%;
+}
+
+#projects {
+  font-size: 2vw;
+}
+
+#projects p {
+  padding: 2em 8.5em;
+}
+
+#footer {
+  font-size: 2vw;
+}

@@ -1,0 +1,155 @@
+@import url("media1.css") (max-width: 1199px) and (min-width: 992px);
+@import url("media2.css") (max-width: 991px) and (min-width: 768px);
+@import url("media3.css") (max-width: 767px) and (min-width: 600px);
+@import url("media4.css") (min-width: 401px) and (max-width: 599px);
+@import url("media5.css") (max-width: 400px);
+
+#repo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 95%;
+  font-size: 0.65em;
+  margin: 0 auto;
+}
+
+#repo-container .repomain {
+  position: relative;
+  background: #1f2d4f;
+  width: 34.5em;
+  font-size: inherit;
+  padding: 1em;
+  box-sizing: border-box;
+  margin: 1em 0;
+}
+
+#repo-container .repomain img {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  width: 7em;
+  height: 7em;
+}
+
+#repo-container .repomain .repo {
+  position: relative;
+  left: 3.2em;
+  width: 10em;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  height: 1.1em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #fff;
+}
+
+#repo-container .repomain .owner {
+  position: relative;
+  left: 5.34em;
+  width: 16.5em;
+  font-weight: lighter;
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  height: 1.1em;
+}
+
+#repo-container .repomain .topics {
+  font-size: 1em;
+  left: 8em;
+  margin-top: 0.8em;
+  font-weight: 900;
+  height: 1.7m;
+  vertical-align: middle;
+  border-radius: 1em;
+  padding-left: 2em;
+  padding-right: 0.2em;
+  position: relative;
+  color: #93c2db;
+}
+
+#repo-container .repomain .topics::before {
+  content: "";
+  position: absolute;
+  height: 1.5em;
+  width: 1.5em;
+  top: 0;
+  left: 0.2em;
+}
+
+#repo-container .repomain .hacktoberfest::before {
+  background: url("../img/assets/check.svg");
+  background-size: cover;
+}
+
+#repo-container .repomain .no-hacktoberfest::before {
+  background: url("../img/assets/cross.svg");
+  background-size: cover;
+}
+
+#repo-container .repomain .repo a {
+  color: #fff;
+}
+
+#repo-container .repomain .owner a {
+  color: #fdcd3d;
+}
+
+#repo-container .repomain .repodata {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.2em;
+  width: 100%;
+  margin: 0;
+}
+
+#repo-container .repomain .icon {
+  box-sizing: border-box;
+  height: 1.4em;
+  position: relative;
+  color: #1595ff;
+  padding: 0;
+  padding-left: 1.9em;
+}
+
+#repo-container .repomain .icon::before {
+  height: 1.6em;
+  width: 1.6em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+}
+
+#repo-container .repomain .stars::before {
+  background: url("../img/assets/star.svg");
+  background-size: cover;
+}
+
+#repo-container .repomain .lang::before {
+  background: url("../img/assets/code.svg");
+  background-size: cover;
+}
+
+#repo-container .repomain .forks::before {
+  background: url("../img/assets/fork.svg");
+  background-size: cover;
+}
+
+#repo-container .repomain .issues::before {
+  background: url("../img/assets/issue.svg");
+  background-size: cover;
+}
+
+#repo-container .repomain p {
+  margin: 0.4em 0;
+  padding: 0;
+  font-family: "Space Mono", monospace;
+  font-size: 1.3em;
+  color: #ed63b2;
+  text-align: center;
+}
